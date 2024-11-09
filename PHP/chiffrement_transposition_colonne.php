@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Chiffrement et déchiffrement de transposition par colonnes</title>
+    <title>Cryptix/colonnes</title>
     <link rel="stylesheet" type="text/css" href="../css/code_css_interface_2.css">
     <link rel="stylesheet" type="text/css" href="../css/code_css_interface3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -20,7 +20,7 @@
         <form id="myForm" method="post">
             <div class="form-group">
                 <label for="cle">La clé :</label>
-                <input type="texte" id="cle" placeholder="Entrez la clé" />
+                <input type="texte" id="cle" placeholder="Entrez la clé"/>
             </div>
                 <div class="form-group">
                     <label for="texte">Texte en clair/chiffré :</label>

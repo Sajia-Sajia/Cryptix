@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="./css/code_css_interface_1.css">
-	<title>Choix de l'algorithme pour chiffrer ou déchiffrer</title>
+	<title>Cryptix</title>
 </head>
 
 <body>

@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="../css/code_css_interface3.css">
 		<link rel="stylesheet" type="text/css" href="../css/code_css_interface_2.css">
-		<title>Chiffrement et déchiffrement par permutation</title>
+		<title>Cryptix/permutation</title>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 	</head>

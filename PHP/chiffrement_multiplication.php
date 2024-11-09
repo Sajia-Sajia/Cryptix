@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Chiffrement et déchiffrement par multiplication</title>
+    <title>Cryptix/multiplication</title>
     <link rel="stylesheet" type="text/css" href="../css/code_css_interface_2.css">
     <link rel="stylesheet" type="text/css" href="../css/code_css_interface3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">

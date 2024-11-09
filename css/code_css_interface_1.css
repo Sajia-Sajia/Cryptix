@@ -1,0 +1,114 @@
+body{
+		background-image: url("../Images_Crypto/image_blue.jpg");
+		margin: 0px;
+		background-position: center;
+	 	background-repeat: no-repeat, repeat;
+	    background-size: cover;
+		position: relative;
+		background-color: steelblue;
+		font-size: 21px;
+}
+.image-item {
+		display: inline-block;
+		width: 200px;
+	    margin: 10px;
+		text-align: center;
+}
+.commencer {
+	      text-decoration: none;
+	      color: royalblue;
+}
+.image-list {
+		margin-top: 20px;
+		text-align: center;
+}
+.cover-image {
+		width: 150px;
+		position: relative;
+		overflow: hidden; 
+		height: 200px;
+		margin-bottom: 10px;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+}
+.image-item:hover {
+    transform: scale(1.1); /* Zoom in effect on hover */
+    transition: transform 0.3s ease; /* Smooth transition over 0.3 second */
+    filter: brightness(80%); /* Adjust brightness on hover */
+    /*box-shadow: 0 0 10px rgba(0, 0, 128, 0.7);*/
+
+}
+.cover-image.hovered{
+	 /*box-shadow: 0 0 30px rgba(0, 0, 50, 0.7);
+	  box-shadow: 0 0 30px rgba(255, 255, 255, 1);*/
+	   box-shadow: 0px 0px 30px navajowhite;
+}
+
+.commencer.hovered {
+    color: darkblue;
+    text-decoration: underline;
+    font-size: 23px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 128, 0.7);*/
+}
+
+.image {
+		flex-basis: 25%; /* Pour afficher 3 images par ligne, utilisez 33.33% pour chaque image */
+		padding: 10px;
+		box-sizing: border-box;
+		display: block;
+		width: 100%;
+		height: auto;
+		margin-top: 25px;
+}
+.image-container {
+		display: flex;
+        margin: 0 auto;
+        padding: 50px 20px;
+		flex-wrap: wrap;
+		width: 80%;
+		background-color: rgba(255, 255, 255, 0.7);
+		border-radius: 10px;
+  		box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+h1 {
+  		background-color:  rgba(255, 255, 255, 0.7);
+  		text-align: center;
+  		margin-top: 10px;
+/* 			color: #333;*/
+		color: darkblue;
+  		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  		padding: 10px;
+  		font-size: 34px;
+}
+h2 {
+  		text-align: center;
+  		color: red;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		background-color: rgba(255, 255, 255, 0.7);
+}
+/*a:hover {
+		text-decoration: underline;
+		color: darkblue;
+		/*transition: color 0.3s ease;}*/
+
+span {
+		color: darkblue;
+		/*color: red;*/
+		font-weight: bold;
+}
+.modal {
+		display: none;
+		position: absolute;
+		top: 11.5%;
+/*		top a changer selon le nombre d'algorithmes, pour 3 lignes par exemple
+ c'est 9.5 % et pour 2 lignes c'est 13%*/
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 18px;
+		background-color: rgba(255, 255, 255, 0.7);
+		border: 1px solid #ccc;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		z-index: 1000;
+		font-size: 21px;
+		
+}

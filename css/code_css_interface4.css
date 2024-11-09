@@ -1,0 +1,58 @@
+.container {
+		max-width: 800px;
+		margin: 40px auto;
+		margin: 0 auto;
+		padding: 66px 60px;
+		margin-top: 70px;
+		display: grid;
+		grid-template-columns: 1fr 1fr; /* Diviser en deux colonnes égales */
+		gap: 50px; /* Espacement entre les colonnes */
+		}
+.contai {
+		max-width: 800px;
+		margin: 10px auto;
+		margin: 0 auto;
+		padding: 16px 10px;
+		margin-top: 1px;
+		background-color: rgba(255, 255, 255, 0.7);
+		border-radius: 12px;
+		color: red;
+		box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+		 /* Diviser en deux colonnes égales */
+		 /* Espacement entre les colonnes */
+		}
+
+.cont {
+		max-width: 700px;
+		margin: 40px auto;
+		margin: 0 auto;
+		padding: 40px 46px;
+		margin-top: 20px;
+		background-color: rgba(255, 255, 255, 0.7);
+		border-radius: 10px;
+		box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+
+		}
+
+.left-side {
+		grid-column: 1; /* Colonne de gauche */
+		}
+
+.right-side {
+		grid-column: 2; /* Colonne de droite */
+		}
+
+.remarque {
+		margin: 1px auto 0;
+		padding: 10px 18px;
+		font-size: 16px;
+		border-radius: 5px;
+		border: none;
+		font-weight: bold;
+		color: #FFF;
+		margin-right: 10px;
+		background-color: steelblue;
+		text-align: justify;
+		/*    text-align-last: justify;*/
+		}
+
